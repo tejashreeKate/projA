@@ -10,8 +10,8 @@
 
 /* Space out content a bit */
 body {
-  padding-top: 20px;
   padding-bottom: 20px;
+  background-color:#fff;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -69,7 +69,7 @@ body {
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 730px;
+    /*max-width: 730px;*/
   }
 
   /* Remove the padding we set earlier */
@@ -87,4 +87,24 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+}
+/*main css*/
+.container{
+  margin-top:0px;
+}
+.header{
+  background-color:#5677fc;
+  color:#fff;
+  ul{
+    padding:10px;
+  }
+  .nav-pills > li > a{
+    color:#fff!important;
+  }
+  h3{
+    padding:10px;
+  }
+}
+.post-input{
+  width:50%;
 }
