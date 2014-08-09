@@ -1,6 +1,6 @@
 angular.module('projAApp')
 .service('anchorSmoothScroll', function(){
-    
+    'use strict';
     this.scrollTo = function(eID) {
 
         // This scrolling function 

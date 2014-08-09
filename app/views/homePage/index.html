@@ -1,8 +1,12 @@
-<div class="container-fluid mainHomeContainer">
+<div class="container-fluid mainHomeContainer" ng-if="!signUp">
 	<div class="col-md-5 col-xs-5 homeImage">
 		<img src="images/goal.jpg" width="430px"/>
 	</div>
 	<div class="col-md-7 col-xs-7" style="margin-top:200px">
+		<button class="btn-success" ng-click="openSignUp();">Sign Up for Free</button>
 		<h2>#ABC helped me in achieving my goals</h2>
 	</div>
+</div>
+<div ng-if="signUp">
+	<div ng-include="'views/homePage/signUp.html'"></div>
 </div>
