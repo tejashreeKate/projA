@@ -22,14 +22,14 @@
 
     <!-- Add your site or application content here -->
     <div>
-      <div class="header">
+      <!-- <div class="header">
         <ul class="nav nav-pills pull-right">
           <li class="active"><a ng-href="#">Home</a></li>
           <li><a ng-href="#/about">Goals</a></li>
           <li><a ng-href="#">Biblio</a></li>
         </ul>
         <h3>Company</h3>
-      </div>
+      </div> -->
       <div ng-view=""></div>
 
       <!-- <div class="footer">
@@ -72,10 +72,12 @@
 
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/homeCtrl.js"></script>
         <script src="scripts/controllers/main.js"></script>
         <script src="scripts/controllers/about.js"></script>
         <script src="scripts/controllers/goalCtrl.js"></script>
         <script src="scripts/directives/autoHeight.js"></script>
+        <script src="scripts/services/smoothScroll.js"></script>
         <!-- endbuild -->
 </body>
 </html>

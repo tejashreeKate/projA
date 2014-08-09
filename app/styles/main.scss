@@ -117,3 +117,42 @@ table{
     border-bottom:1px solid #fff;
   }
 }
+/* Home Page CSS*/
+.navbar{
+  background-color:#5677fc;
+  margin-bottom:0px;
+}
+.navbar-nav{
+  li{
+    a{
+      color:#fff;
+    }
+    a:hover{
+      color:#000;
+    }
+  }
+} 
+.companyName{
+  margin: 5px;
+  a{
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  a:hover{
+    text-decoration:none;
+  }
+}
+.homeContainer{
+  margin-top:61px;
+}
+.mainHomeContainer{
+  height:660px;
+}
+.homeImage{
+  margin-top:150px;
+}
+#howItWorks{
+  background-color:#d0d9ff;
+  height:600px;
+}
